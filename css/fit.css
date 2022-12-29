@@ -862,6 +862,15 @@ header .search i {
     color: var(--light-text);
     line-height: 2;
 }
+@media (max-width: 768px) {
+    .contact .content {
+        flex-direction: column-reverse;
+    }
+    .contact .content .text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
 /* End Contact */
 /* Start Footer */
 .footer {
